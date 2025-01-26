@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cn{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+.cn1 h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cn2{
+    display: flex;
+    justify-content: space-between;
+}
+.cno1{
+    padding: 10px;
+}
+.cno2{
+    padding: 10px;
+}
+.cno3{
+    padding: 10px;
+}
+.cno1 a{
+    text-decoration: none;
+    color: white;
+}
+.cno2 a{
+    text-decoration: none;
+    color: white;
+}
+.cno3 a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.cno3 a:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+.cen{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 100px;
+}
+.cen1{
+    height: 450px;
+    width: 400px;
+}
+.cen11{
+    font-size: 25px;
+}
+.cen12{
+    text-decoration: none;
+   padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cen22{
+    margin-top: 20px ;
+}
+.cen12:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+.cen2 img{
+    height: 350px;
+    width: 400px;
+}
+.bd{
+    margin: 50px;
+    background-color: black;
+    padding: 300px;
+    border-radius: 30px;
+    text-decoration: solid 15px rgb(44, 43, 43);
+}
+.bd1 img{
+    height: 250px;
+    width: 190px; 
+    margin-left: 10px;
+    margin-top: 9px;
+}
+.bd1{
+    background-color: white;
+    height: 350px;
+    width: 210px;
+    border-radius: 7px;
+}
+.bd11{
+    margin: 10px;
+    font-family: fantasy;
+    font-size: 23px;
+    margin-left: 40px;
+}
+.b1d h1{
+    color: white;
+    align-items: center;
+    margin-top: -160px;
+    margin-bottom: 80px;
+    margin-left: 120px;
+}
+.bd1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    margin-left: 40px;
+    background-color: black;
+    padding: 4px;
+    border-radius: 5px;
+}
+.bd1 a:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.bbdd{
+    display: flex;
+    justify-content: space-around;
+}
