@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+}
+.a{
+    display: grid;
+    justify-content: center;
+    margin-top: 250px;
+    border-radius: 15px;
+    background-color: white;
+    width: 350px;
+    margin-left: 450px;
+    height: 400px;
+}
+.a h1{
+    margin-left: 60px;
+    font-family: sans-serif;
+}
+.us{
+    height: 50px;
+    margin-top: -20px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    background-color: black;
+}
+.pa{
+    height: 50px;
+    margin-top: -30px;
+    border-radius: 7px;
+    font-family: sans-serif;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+    background-color: black;
+}
+.a p{
+    margin-top: -30px;
+    color: black;
+    font-family: sans-serif;
+}
+.a p a{
+    color: black;
+}
+.bt{
+    margin-top: -50px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border: 0;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.bt:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.a p a:hover{
+    text-decoration: none;
+    transition: 1s;
+}
+.us:focus-visible{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.pa:focus-visible{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}

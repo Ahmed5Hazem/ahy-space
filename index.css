@@ -83,7 +83,8 @@
 .bd{
     margin: 50px;
     background-color: black;
-    padding: 300px;
+    width: 1150PX;
+    height: 650PX;
     border-radius: 30px;
     text-decoration: solid 15px rgb(44, 43, 43);
 }
@@ -108,9 +109,10 @@
 .b1d h1{
     color: white;
     align-items: center;
-    margin-top: -160px;
+  
     margin-bottom: 80px;
-    margin-left: 120px;
+    margin-left: 420px;
+    margin-top: 30px;
 }
 .bd1 a{
     text-decoration: none;
@@ -130,3 +132,40 @@
     display: flex;
     justify-content: space-around;
 }
+.ft{
+    width: 1150PX;
+    height: 250PX;
+    background-color: black;
+    border-top-left-radius:40px ;
+    border-top-right-radius: 40px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.ft1{
+    display: grid;
+    margin: 16px;
+}
+.ft1 a{
+text-decoration: none;
+color: white;
+font-size: 24px;
+
+}
+.ft2{
+    display: grid;
+    margin: 16px;
+}
+.ft2 a{
+text-decoration: none;
+color: white;
+font-size: 24px;
+}
+.ft3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    }
+    .ft3{
+        margin: 16px;
+    }
